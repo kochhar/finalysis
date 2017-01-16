@@ -23,12 +23,18 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+bin/
+include/
+share/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+
+# Pip
+pip-selfcheck.json
 
 # Installer logs
 pip-log.txt
